@@ -1,0 +1,35 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "$2a$14$W1bYhx5UHz3F4jYWjM4DJO/5H6QpKOlUQcsrbSshHxWjv4k8pFqEG",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "username": "user1",
+        "password": "$2a$14$W1bYhx5UHz3F4jYWjM4DJO/5H6QpKOlUQcsrbSshHxWjv4k8pFqEG",
+        "role": "user"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "First Post",
+        "content": "This is the first post",
+        "author_id": 1,
+        "created_at": "2024-07-03T17:00:00Z",
+        "comments": [
+          {
+            "id": 1,
+            "post_id": 1,
+            "content": "First comment",
+            "author_id": 2,
+            "created_at": "2024-07-03T17:05:00Z"
+          }
+        ]
+      }
+    ]
+  }
+  
